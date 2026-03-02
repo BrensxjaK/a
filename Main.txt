@@ -1423,7 +1423,7 @@ function redzlib:MakeWindow(Configs)
         Size = UDim2.new(1, 0, 1, 0),
         Position = UDim2.new(0, 0, 0, 0),
         BackgroundTransparency = 1,
-        Image = "rbxassetid://101614251079837", 
+        Image = "rbxassetid://0", 
         ImageColor3 = Color3.fromRGB(0, 255, 0),
         ImageTransparency = 0.85,
         ScaleType = Enum.ScaleType.Crop,
@@ -1519,8 +1519,8 @@ function redzlib:MakeWindow(Configs)
     local ParticleConfig = {
         MaxParticles = 15,
         SpawnRate = 0.3,
-        ParticleSize = {Min = 2, Max = 5},
-        ParticleSpeed = {Min = 1, Max = 3},
+        ParticleSize = {Min = 0, Max = 0},
+        ParticleSpeed = {Min = 0, Max = 0},
         ParticleLifetime = 5.7
     }
 
