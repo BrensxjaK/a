@@ -930,7 +930,7 @@ local SetProps, SetChildren, InsertTheme, Create do
         end
     end
     
-    pcall(Save, "Nexus library V1.json")
+    pcall(Save, "Coquette library V1.json")
 end
 
 local Funcs = {} do
@@ -1070,7 +1070,7 @@ local GetFlag, SetFlag, CheckFlag do
 end
 
 local ScreenGui = Create("ScreenGui", CoreGui, {
-    Name = "Nexus Library V1",
+    Name = "Coquette Library V1",
 }, {
     Create("UIScale", {
         Scale = UIScale,
@@ -1353,7 +1353,7 @@ function redzlib:SetTheme(NewTheme)
     if not VerifyTheme(NewTheme) then return end
     
     redzlib.Save.Theme = NewTheme
-    SaveJson("Nexus library V1.json", redzlib.Save)
+    SaveJson("Coquette library V1.json", redzlib.Save)
     Theme = redzlib.Themes[NewTheme]
     
     Connection:FireConnection("ThemeChanged", NewTheme)
@@ -1669,13 +1669,13 @@ function redzlib:MakeWindow(Configs)
     ConnectSave(ControlSize1, function()
         if not Minimized then
             redzlib.Save.UISize = {MainFrame.Size.X.Offset, MainFrame.Size.Y.Offset}
-            SaveJson("Nexus library V5.json", redzlib.Save)
+            SaveJson("Coquette library V5.json", redzlib.Save)
         end
     end)
     
     ConnectSave(ControlSize2, function()
         redzlib.Save.TabSize = MainScroll.Size.X.Offset
-        SaveJson("Nexus library V5.json", redzlib.Save)
+        SaveJson("Coquette library V5.json", redzlib.Save)
     end)
     
     local ButtonsFolder = Create("Folder", TopBar, {
