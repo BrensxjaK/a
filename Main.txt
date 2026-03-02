@@ -20,7 +20,7 @@ local redzlib = {
             ["Color Stroke"] = Color3.fromRGB(0, 255, 0),                       -- Verde neon
             ["Color Theme"] = Color3.fromRGB(0, 200, 0),                        -- Verde principal
             ["Color Text"] = Color3.fromRGB(144, 238, 144),                     -- Verde claro
-            ["Color Dark Text"] = Color3.fromRGB(0, 100, 0),                    -- Verde escuro
+            ["Color Dark Text"] = Color3.fromRGB(144, 238, 144),                    -- Verde escuro
             ["Color Element"] = Color3.fromRGB(0, 40, 0),                       -- Verde profundo
             ["Color Element Stroke"] = Color3.fromRGB(0, 255, 0)                -- Verde neon
         }
