@@ -1,3 +1,4 @@
+
 local MarketplaceService = game:GetService("MarketplaceService")
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -1726,13 +1727,13 @@ function redzlib:MakeWindow(Configs)
     
     function Window:CloseBtn()
         local Dialog = Window:Dialog({
-            Title = "Coquette Hub",  
-            Text = "Certeza que ja vai sair Anjinho/a💔", 
+            Title = "Lyra Hub",  
+            Text = "Tem certeza que ja vai sair?", 
             Options = {
-                {"Sim Lolyta", function()  
+                {"Yes", function()  
                     ScreenGui:Destroy()
                 end},
-                {"Não Lolyta"} 
+                {"No"} 
             }
         })
     end
