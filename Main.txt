@@ -11,18 +11,18 @@ local PlayerMouse = Player:GetMouse()
 local redzlib = {
     Themes = {
         Cyberpunk = {
-       ["Color Hub 1"] = ColorSequence.new({
-    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 0, 40)),
-    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(140, 0, 255)),
-    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 0, 40))
-}),
-["Color Hub 2"] = Color3.fromRGB(10, 0, 20),
-["Color Stroke"] = Color3.fromRGB(180, 0, 255),
-["Color Theme"] = Color3.fromRGB(180, 0, 255),
-["Color Text"] = Color3.fromRGB(216, 191, 216),
-["Color Dark Text"] = Color3.fromRGB(200, 150, 255),
-["Color Element"] = Color3.fromRGB(15, 0, 30),
-["Color Element Stroke"] = Color3.fromRGB(180, 0, 255)
+           ["Color Hub 1"] = ColorSequence.new({
+                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 30, 0)),      -- Verde escuro
+                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 80, 0)),      -- Verde médio
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 30, 0))       -- Verde escuro
+            }),
+            ["Color Hub 2"] = Color3.fromRGB(0, 20, 0),                         -- Verde muito escuro
+            ["Color Stroke"] = Color3.fromRGB(0, 100, 0),                       -- Verde escuro médio
+            ["Color Theme"] = Color3.fromRGB(0, 120, 0),                        -- Verde principal
+            ["Color Text"] = Color3.fromRGB(144, 238, 144),                     -- Verde claro (visível)
+            ["Color Dark Text"] = Color3.fromRGB(100, 200, 100),                -- Verde médio claro
+            ["Color Element"] = Color3.fromRGB(0, 25, 0),                       -- Verde escuro fundo
+            ["Color Element Stroke"] = Color3.fromRGB(0, 90, 0)                 -- Verde borda
         }
     }, 
 
