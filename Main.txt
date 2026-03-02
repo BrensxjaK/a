@@ -13,17 +13,17 @@ local redzlib = {
     Themes = {
         Cyberpunk = {
             ["Color Hub 1"] = ColorSequence.new({
-                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 30, 0)),      -- Verde escuro
-                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 80, 0)),      -- Verde médio
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 30, 0))       -- Verde escuro
+                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 30, 0)),   
+                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 80, 0)),      
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 30, 0))      
             }),
-            ["Color Hub 2"] = Color3.fromRGB(0, 20, 0),                         -- Verde muito escuro
-            ["Color Stroke"] = Color3.fromRGB(0, 100, 0),                       -- Verde escuro médio
-            ["Color Theme"] = Color3.fromRGB(0, 120, 0),                        -- Verde principal
-            ["Color Text"] = Color3.fromRGB(144, 238, 144),                     -- Verde claro (visível)
-            ["Color Dark Text"] = Color3.fromRGB(100, 200, 100),                -- Verde médio claro
-            ["Color Element"] = Color3.fromRGB(0, 25, 0),                       -- Verde escuro fundo
-            ["Color Element Stroke"] = Color3.fromRGB(0, 90, 0)                 -- Verde borda
+            ["Color Hub 2"] = Color3.fromRGB(0, 20, 0),                      
+            ["Color Stroke"] = Color3.fromRGB(0, 100, 0),                   
+            ["Color Theme"] = Color3.fromRGB(0, 120, 0),                       
+            ["Color Text"] = Color3.fromRGB(144, 238, 144),                   
+            ["Color Dark Text"] = Color3.fromRGB(100, 200, 100),            
+            ["Color Element"] = Color3.fromRGB(0, 25, 0),                       
+            ["Color Element Stroke"] = Color3.fromRGB(0, 90, 0)                
         }
     }, 
 
@@ -31,8 +31,8 @@ local redzlib = {
         Version = "1.2.0"
     },
     Save = {
-        UISize = {580, 390},
-        TabSize = 165,
+        UISize = {440, 300}, 
+        TabSize = 130
         Theme = "Cyberpunk" 
     },
     Settings = {},
