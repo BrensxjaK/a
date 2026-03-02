@@ -11,18 +11,18 @@ local PlayerMouse = Player:GetMouse()
 local redzlib = {
     Themes = {
         Cyberpunk = {
-            ["Color Hub 1"] = ColorSequence.new({
-                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 0, 75)),
-                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(75, 0, 130)),
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(45, 0, 75))
-            }),
-            ["Color Hub 2"] = Color3.fromRGB(30, 0, 50),
-            ["Color Stroke"] = Color3.fromRGB(147, 112, 219),
-            ["Color Theme"] = Color3.fromRGB(147, 112, 219),
-            ["Color Text"] = Color3.fromRGB(216, 191, 216),
-            ["Color Dark Text"] = Color3.fromRGB(186, 85, 211),
-            ["Color Element"] = Color3.fromRGB(45, 0, 75),
-            ["Color Element Stroke"] = Color3.fromRGB(147, 112, 219)
+       ["Color Hub 1"] = ColorSequence.new({
+    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 0, 40)),
+    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(140, 0, 255)),
+    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 0, 40))
+}),
+["Color Hub 2"] = Color3.fromRGB(10, 0, 20),
+["Color Stroke"] = Color3.fromRGB(180, 0, 255),
+["Color Theme"] = Color3.fromRGB(180, 0, 255),
+["Color Text"] = Color3.fromRGB(216, 191, 216),
+["Color Dark Text"] = Color3.fromRGB(200, 150, 255),
+["Color Element"] = Color3.fromRGB(15, 0, 30),
+["Color Element Stroke"] = Color3.fromRGB(180, 0, 255)
         }
     }, 
 
